@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Update Book Stock</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <center>
+            <h2>Update Book Stock</h2>
+            <form action='/updateBooks' method="post">
+                <label>Book ID</label>
+                <input type='text' placeholder="Enter the ID of the Book to be updated" required='' name='ID'></input><br/>
+                <label>New Stock</label>
+                <input type='number' placeholder="Enter the count of new stock" required='' name='copies'></input><br/>
+                <button type='submit'>Submit</button>
+            </form>
+        </center>
+    </body>
+</html>

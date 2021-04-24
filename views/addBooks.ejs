@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <title>Add Books</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <center>
+        <h2>Add a New Book Collection</h2>
+        <form action="/addBooks" method="post">
+            <label>Book ID</label>
+            <input type="text" placeholder="Enter the Book ID" required="" name="ID"></input><br/>
+            <label>Book Title</label>
+            <input type="text" placeholder="Enter the Title of the Book" required="" name="Title"></input><br/>
+            <label>Author</label>
+            <input type="text" placeholder="Enter the name of the Author" required="" name="Author"></input><br/>
+            <label>Genre</label>
+            <input type="text" placeholder="Enter the Genre of the Book" required="" name="Genre"></input><br/>
+            <label>No. of copies</label>
+            <input type="number" placeholder="Enter the no. of copies" required="" name="Copies"></input><br/>
+            <label>Publisher</label>
+            <input type="text" placeholder="Enter the name of the Publisher" required="" name="Publisher"></input><br/>
+            <button type="submit">Submit</button>
+        </form>
+    </center>    
+</body>
