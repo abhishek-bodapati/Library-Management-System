@@ -1,6 +1,6 @@
 # Library-Management-System
 
-* Simple Library Management System using ExpressJS and MongoDB
+* Simple Library Management System using Node, Express and MongoDB
 * MongoDB Collection name - 'Books'
 
 ## How to run?
