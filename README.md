@@ -2,7 +2,7 @@
 
 * Simple Library Management System using Node, Express and MongoDB
 * MongoDB DB name - 'Library' Collection name - 'Books'
-* Front-end usind AdminLTE template
+* Front-end using AdminLTE template
 
 ## How to run?
 ```
