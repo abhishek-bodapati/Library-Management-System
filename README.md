@@ -6,7 +6,7 @@
 
 ## How to run?
 ```
-$ node server.js
+node server.js
 ```
 * In Browser: http://127.0.0.1:3000
 
